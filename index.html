@@ -35,7 +35,7 @@
         }
         
         .hero-bg {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1600843202039-78d430b6c9d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80') center/cover no-repeat;
+            background: linear-gradient(rgba(0, 86, 179, 0.85), rgba(0, 86, 179, 0.85)), linear-gradient(135deg, #0056b3 0%, #00a8e8 100%);
         }
         
         .service-card {
@@ -142,8 +142,11 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-bg min-h-screen flex items-center">
-        <div class="container mx-auto px-4 py-12 text-center">
+    <section id="home" class="hero-bg min-h-screen flex items-center relative">
+        <div class="absolute inset-0 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1600834374182-376e0dc8db97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="HVAC Technician" class="w-full h-full object-cover opacity-30">
+        </div>
+        <div class="container mx-auto px-4 py-12 text-center relative z-10">
             <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Professional HVAC Services</h1>
             <p class="text-xl text-white mb-8 max-w-2xl mx-auto">Expert heating, cooling, and appliance repair services in Silver Spring, Maryland. Your comfort is our priority.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
@@ -224,6 +227,10 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="mt-16">
+                <img src="https://images.unsplash.com/photo-1604056823010-95854449d9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="HVAC Installation" class="rounded-lg shadow-lg w-full">
+            </div>
         </div>
     </section>
 
@@ -252,7 +259,7 @@
                         <li><i class="fas fa-check text-accent mr-2"></i> Thermostat repair and installation</li>
                         <li><i class="fas fa-check text-accent mr-2"></i> Air duct cleaning and installation</li>
                         <li><i class="fas fa-check text-accent mr-2"></i> Commercial HVAC services</li>
-                    </ul>
+             
                 </div>
                 
                 <div class="service-card bg-light p-8 rounded-lg shadow-md">
@@ -269,6 +276,9 @@
                         <li><i class="fas fa-check text-accent mr-2"></i> Garbage disposal installation and repair</li>
                         <li><i class="fas fa-check text-accent mr-2"></i> Gas appliance repair</li>
                     </ul>
+                    <div class="mt-6">
+                        <img src="https://images.unsplash.com/photo-1596235245220-3ca9d74d36aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Appliance Repair" class="rounded-lg w-full h-48 object-cover">
+                    </div>
                 </div>
                 
                 <div class="service-card bg-light p-8 rounded-lg shadow-md">
@@ -284,6 +294,9 @@
                         <li><i class="fas fa-check text-accent mr-2"></i> Deck renovation</li>
                         <li><i class="fas fa-check text-accent mr-2"></i> Water damage restoration</li>
                     </ul>
+                    <div class="mt-6">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Additional Services" class="rounded-lg w-full h-48 object-cover">
+                    </div>
                 </div>
             </div>
         </div>
@@ -306,7 +319,7 @@
                     <p class="italic mb-4">"Pablo is the best! He replaced three ancient PTACs in my DC condo with heat pump versions. He is skilled, efficient and very responsive. His crew is excellent, too."</p>
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16"></div>
+                            <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Customer" class="rounded-full w-16 h-16">
                         </div>
                         <div class="ml-4">
                             <h4 class="font-bold">Lauren J.</h4>
@@ -322,7 +335,7 @@
                     <p class="italic mb-4">"Called Zapata's for my AC they didn't have any appointments available, and they did the impossible to schedule me for the same day, I am so thanks full. My Ac is up an running. Technician was..."</p>
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16"></div>
+                            <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Customer" class="rounded-full w-16 h-16">
                         </div>
                         <div class="ml-4">
                             <h4 class="font-bold">Ana P.</h4>
@@ -338,7 +351,7 @@
                     <p class="italic mb-4">"Zapata saved me $20,000+ after another incompetent and/or crooked company said I needed to replace my HVAC system when there was nothing wrong with it!"</p>
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16"></div>
+                            <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Customer" class="rounded-full w-16 h-16">
                         </div>
                         <div class="ml-4">
                             <h4 class="font-bold">Google User</h4>
@@ -362,7 +375,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="team-member bg-light p-8 rounded-lg shadow-md text-center">
                     <div class="mx-auto mb-6">
-                        <div class="bg-gray-200 border-2 border-dashed rounded-xl w-48 h-48 mx-auto"></div>
+                        <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Pablo" class="rounded-full w-48 h-48 mx-auto">
                     </div>
                     <h3 class="text-2xl font-bold mb-2">Pablo</h3>
                     <p class="text-accent font-semibold mb-3">Lead Technician & Field Expert</p>
@@ -371,7 +384,7 @@
                 
                 <div class="team-member bg-light p-8 rounded-lg shadow-md text-center">
                     <div class="mx-auto mb-6">
-                        <div class="bg-gray-200 border-2 border-dashed rounded-xl w-48 h-48 mx-auto"></div>
+                        <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Technicians" class="rounded-full w-48 h-48 mx-auto">
                     </div>
                     <h3 class="text-2xl font-bold mb-2">Our Technicians</h3>
                     <p class="text-accent font-semibold mb-3">Highly Skilled Professionals</p>
@@ -380,7 +393,7 @@
                 
                 <div class="team-member bg-light p-8 rounded-lg shadow-md text-center">
                     <div class="mx-auto mb-6">
-                        <div class="bg-gray-200 border-2 border-dashed rounded-xl w-48 h-48 mx-auto"></div>
+                        <img src="https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg" alt="Customer Service" class="rounded-full w-48 h-48 mx-auto">
                     </div>
                     <h3 class="text-2xl font-bold mb-2">Customer Service</h3>
                     <p class="text-accent font-semibold mb-3">Dedicated Support Team</p>
